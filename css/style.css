@@ -1,0 +1,367 @@
+@charset "utf-8";
+
+
+/*-----------------------*/
+
+
+.padre {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+h2 {
+    padding: 5px;
+    text-transform: uppercase;
+    color: #03013F;
+    margin-top: 50px;
+}
+
+h2::after {
+    content: '';
+    margin: 0 auto;
+    background-image: url("../recursos/img/separador.png");
+    height: 30px;
+    width: 100px;
+    display: block;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+span {
+    color: #07C5D3;
+}
+
+p {
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+/*Header*/
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    background: url("../img/fondos header/Samsung_Cell_phone_communication-Brand_HD_Wallpaper_2560x1600.jpg");
+    background-attachment: contain;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav.redes-sociales {
+    margin-top: 5%;
+    text-align: center;
+}
+
+nav.redes-sociales a {
+    color: #ffffff !important;
+    font-size: 2.5em;
+    margin-right: 30px;
+
+}
+
+
+nav.redes-sociales a:last-child {
+    margin-right: 0;
+}
+
+/*----------------------Barra de navegacion-------------------*/
+
+button{
+    color: white;
+    border: 10px solid #ffffff;
+    background: #03013F;
+    width: 200px;
+    height: 65px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.galeria img{
+    border-radius: 30px;
+    margin-left: 10em;
+    margin-right: -7em;
+    
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.tituloPrincipal h1 {
+    font-family: 'Reboto', sans-serif;
+}
+
+.tituloPrincipal {
+    width: 43%;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    background-color: #03013F;
+}
+
+.logo {
+    flex: 1 1 auto;
+    padding: 0px 0px 0px 50px;
+    width: 7%;
+    border-right: solid 30px #06C3CC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 90%;
+    padding-left: 0;
+    background-color: #03013F;
+    border-radius: 12px;
+}
+
+
+.nav {
+    flex: 3 1 auto;
+    display: flex;
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    width: 50%;
+}
+
+.nav a {
+
+    color: #fff;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s ease;
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+    padding-top: 14px;
+    width: 160px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.nav a:hover {
+    background-color: #06C3CC;
+}
+
+.nav .seleccionado {
+    border: 2px solid #06C3CC;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #03013F;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer i {
+    color: white;
+}
+
+.footer .contenedor {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 auto;
+}
+
+
+
+.footer h3 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.footer p {
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer li {
+    color: white;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.footer a {
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+
+.footer ul {
+    margin-left: 15%;
+}
+
+.footer .footer-informacion,
+.footer .contactenos,
+.footer .redes {
+    flex: 1 1 20%;
+    padding: 20px;
+}
+
+
+
+/*	main 	*/
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font: 400;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+section .main {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.nuestro-servicios {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+
+.nuestro-servicios p {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #03013F;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.descripcion-hacemos {
+    flex: 1 1 auto;
+    flex-flow: row nowrap;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+.contenidoPrincipal {
+    display: flex;
+    height: 400px;
+}
+
+.contenidoPrincipal h3,
+.contenidoPrincipal p {
+    color: #03013F;
+}
+
+.contenido {
+    flex: 1 1 auto;
+    padding: 10px;
+}
+
+.fondo {
+    font-size: 8em;
+}
+
+.fondo div {
+    font-size: 0.6em;
+    color: #07C5D3;
+}
+
+.contenedor-oscuro {
+    background-color: #03013F;
+    height: 300px;
+    padding: 40px;
+}
+
+.contenedor-oscuro h3 {
+    padding: 20px;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+/*Mapa*/
+
+.map {
+    text-align: center;
+}
+
+
+div.mapa {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 420px;
+    background-color: #f2f2f2;
+}
+
+.map .pieMapa {
+    width: 18%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.map .pieMapa h3 {
+    margin-top: 50px;
+    color: #03013F;
+}
+
+.map .pieMapa hr {
+    background-color: #07C5D3;
+    height: 3px;
+}
+
+/**--------------------------------------*/
+.conLogo {
+    display: flex;
+}
+
+.Logo2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.titufo {
+    font-family: 'Reboto', sans-serif;
+    font-size: 25px;
+    color: #07C5D3;
+    padding-top: 18px;
+}
+
+.pelado p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.blan {
+    color: #fff;
+}
