@@ -92,6 +92,17 @@ button{
     
 }
 
+.novedades .nov{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4em 0em;
+}
+
+.novedades img{
+    width: 350px;
+    height: 350px;
+}
+
 .fixed {
     position: fixed;
     width: 100%;
