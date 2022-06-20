@@ -1,0 +1,139 @@
+/*------------------------------CONTACTENOS-----------------------*/
+    
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font: 400;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+main {
+    background: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitulo h2 {
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.puntos {
+    text-align: center;
+}
+
+.puntos span {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 10px;
+    background-color: #06C3CC;
+    border-radius: 50px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.datos {
+    /*flex box*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.datos .icono_text {
+    padding: 15px 50px;
+    margin: 25px;
+    border: 2px solid #06C3CC;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #06C3CC;
+    font-weight: 300;
+}
+
+.datos .icon_text {
+    padding: 5px 200px;
+    margin: 25px;
+    border: 2px solid #06C3CC;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #06C3CC;
+    font-weight: 300;
+}
+
+#descr {
+    vertical-align: top;
+    text-align: justify;
+    width: 20rem;
+    height: 10rem;
+}
+
+.campo,
+#correo,
+#descr {
+    outline: none;
+    border: 0;
+}
+
+textarea #descr {
+    width: 100%;
+}
+
+.datos .btn_enviar {
+    padding: 10px 30px;
+    border: 1px solid #06C3CC;
+    background: #06C3CC;
+    color: white;
+    font-size: 15px;
+}
+.btn_enviar{
+    width:150px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.btn_enviar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn_enviar:hover {
+    background-color: #03013F;
+    transition: ease 0.5s all;
+    border: 1px solid #03013F;
+}
+/**--------------------------------------*/
+.conLogo{
+display: flex;
+}
+.Logo2{
+width: 100px;
+height: 100px;
+padding-top: 30px;
+}
+.titufo{
+font-family:'Reboto', sans-serif;
+font-size: 25px;
+color: #06C3CC;
+padding-top: 18px;
+}
+.pelado p{
+text-align: center;
+font-size: 1.2em;
+}
+.blan {
+color: #fff;
+}

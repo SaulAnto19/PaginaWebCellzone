@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novedades</title>
+    <title>Contactenos</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href=" https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400&display=swap " rel=" stylesheet ">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="../css/contactenos.css">
 </head>
 
 <body>
@@ -40,39 +40,65 @@
             </div>
             <nav class="nav">
                 <a href="../html/novedades.html" class="seleccionado">Novedades</a>
-                <a href="Html/quienesSomos.html">Quienes Somos</a>
-                <a href="Html/galeria.html">Galeria</a>
-                <a href="Html/contacto.html">Contacto</a>
+                <a href="../Html/quienesSomos.html">Quienes Somos</a>
+                <a href="../Html/galeria.html">Galeria</a>
+                <a href="../Html/contacto.html">Contacto</a>
             </nav>
         </section>
 
         <!--fin Barra Navegacion-->
     </div>
 
-    <section class="main">
-        <div class="nuestro-servicios scrollflow -slide-right -opacity">
-            <h2>NOVEDADES</h2>
+
+    <!--------------------------------MENU--------------------------------------------->
+    <main>
+        <div class="subtitulo">
+            <h2>Envianos tus consultas y preguntas</h2>
         </div>
 
-        <div class="novedades">
-            <div class="nov">
-                <img id="svgImg" src="../img/iconos/Delivery.svg" alt="">
-                <img src="../img/iconos/cc-mastercard-brands.svg" alt="">
-            </div>
-            <div class="nov">
-                svg<img src="../img/iconos/truck-solid.svg" alt="">
-                <img src="../img/albumMayo/1652201644799.jpg" alt="">
-            </div>
+        <div class="puntos">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-    </section>
+        <form >
+            <div class="datos">
+                <div class="icono_text">
+                    <i class="fas fa-user"></i>
+                    <input type="text" class="campo" placeholder="Nombre Completo" required>
+                </div>
+                <div class="icono_text">
+                    <i class="fas fa-phone-square-alt"></i>
+                    <input type="text" class="campo" placeholder="Telefono" required>
+                </div>
+            </div>
 
+            <div class="datos">
+                <div class="icono_text">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <input type="text" id="correo" placeholder="Correo Electronico" required>
+                </div>
+            </div>
+
+            <div class="datos">
+                <div class="icon_text">
+                    <i class="fas fa-comment-dots"></i>
+                    <textarea id="descr" placeholder="Mensaje(500 Caracteres Máximo)" required></textarea>
+                </div>
+            </div>
+
+            <div class="datos">
+                <button class="btn_enviar"><a href="../index.html">Enviar</a></button>
+            </div>
+        </form>
+    </main>
+    <!---------------------------------------FIN DEL MENU--------------------------------------->
     <!--Footer-->
     <footer class="footer scrollflow -slide-top">
         <div class="contenedor">
             <div class="footer-informacion">
                 <div class="conLogo">
-                    <img src="../img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg" alt="Logo"
-                        class="Logo2">
+                    <img src="../img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg" alt="Logo" class="Logo2">
                 </div>
             </div>
 
@@ -101,7 +127,7 @@
 
     </footer>
     <!--Fin Footer-->
-
+    <!--Scrips-->
     <script src="../js/main.js"></script>
     <script src="https://kit.fontawesome.com/2e23c96103.js" crossorigin="anonymous"></script>
     <script src="../js/jquery.animate-colors-min.js"></script>

@@ -98,9 +98,13 @@ button{
     margin: 4em 0em;
 }
 
-.novedades img{
+.nov img{
     width: 350px;
     height: 350px;
+}
+
+#svgImg{
+    fill: #07C5D3!important;
 }
 
 .fixed {
@@ -111,8 +115,10 @@ button{
     z-index: 2;
 }
 
-.tituloPrincipal h1 {
+.tituloPrincipal a{
     font-family: 'Reboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
 }
 
 .tituloPrincipal {
@@ -121,6 +127,7 @@ button{
     color: #fff;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .menu {
