@@ -92,15 +92,25 @@ button{
     
 }
 
+.novedades{
+    display: flex;
+    justify-content: space-around;
+}
+
 .novedades .nov{
     display: flex;
-    justify-content: space-evenly;
-    margin: 4em 0em;
+    margin: 4em 4em;
+    flex-direction: column;
+}
+
+.nov h2{
+    text-align: center;
 }
 
 .nov img{
     width: 350px;
     height: 350px;
+    border-radius: 30px;
 }
 
 .fixed {
