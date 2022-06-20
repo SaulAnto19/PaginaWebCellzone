@@ -103,10 +103,6 @@ button{
     height: 350px;
 }
 
-#svgImg{
-    fill: #07C5D3!important;
-}
-
 .fixed {
     position: fixed;
     width: 100%;
