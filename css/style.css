@@ -221,7 +221,7 @@ button{
 
 .galery_cellphones{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .galery_cellphones .cell{
@@ -236,6 +236,8 @@ button{
     border-radius: 30px;
     margin: 20px 0px;
 }
+
+/*-----------------------------------------------*/
 
 .fixed {
     position: fixed;
