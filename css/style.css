@@ -173,11 +173,26 @@ button{
     font-weight: 600;
 }
 
-.galeria img{
+.galeria{
+    display: flex;
+    justify-content: space-around;
+}
+
+.galeria .ga{
+    display: flex;
+    margin: 4em 4em;
+    flex-direction: column;
+}
+
+.ga img{
+    width: 500px;
+    height: 500px;
     border-radius: 30px;
-    margin-left: 10em;
-    margin-right: -7em;
-    
+}
+
+.som img{
+    width: 600px;
+    border-radius: 50px;
 }
 
 /*novedades de las galeria de la pagina HTML*/
