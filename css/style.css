@@ -237,6 +237,14 @@ button{
     margin: 20px 0px;
 }
 
+.cell h4{
+    text-align: center;
+    color: #07C5D3;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 0px 10px;
+}
+
 /*-----------------------------------------------*/
 
 .fixed {
