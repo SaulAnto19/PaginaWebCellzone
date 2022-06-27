@@ -530,14 +530,7 @@ div.mapa {
 
 /*agregando los estilos de nuestro inicio de sesion*/
 
-form {
-  border: 3px solid #f1f1f1;
-}
-
-
-
-input[type="text"],
-input[type="password"] {
+.inputSesion {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 1.2em;
