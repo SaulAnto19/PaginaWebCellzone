@@ -119,11 +119,7 @@ textarea #descr {
 .conLogo {
   display: flex;
 }
-.Logo2 {
-  width: 100px;
-  height: 100px;
-  padding-top: 30px;
-}
+
 .titufo {
   font-family: "Reboto", sans-serif;
   font-size: 25px;

@@ -290,7 +290,7 @@ button {
   display: flex;
   text-align: right;
   font-family: "Oswald", sans-serif;
-  width: 50%;
+  width: 55%;
 }
 
 .nav a {
@@ -303,7 +303,7 @@ button {
   text-align: center;
   margin-top: 14px;
   padding-top: 14px;
-  width: 160px;
+  width: 290px;
   height: 40px;
   margin-right: 20px;
 }
