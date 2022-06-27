@@ -107,7 +107,7 @@ p {
   height: 86vh;
 }
 
-/*header de samsung*/
+/*header de xiaomi*/
 .header_xiaomi {
   display: flex;
   flex-flow: column nowrap;
@@ -129,11 +129,22 @@ p {
   height: 86vh;
 }
 
-/*header de samsung*/
+/*header de accesorios*/
 .header_accesorios {
   display: flex;
   flex-flow: column nowrap;
   background: url("../../img/fondos header/4.jpg");
+  background-attachment: contain;
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
+}
+
+/*header de compras*/
+.header_compras {
+  display: flex;
+  flex-flow: column nowrap;
+  background: url("../../img/fondos header/samsung-galaxy-s22-ultra-5g.png");
   background-attachment: contain;
   background-position: center;
   background-size: cover;
