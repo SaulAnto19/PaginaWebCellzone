@@ -1,524 +1,639 @@
 @charset "utf-8";
 
-
 /*-----------------------*/
 
-
 .padre {
-    display: flex;
-    flex-flow: column nowrap;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 h2 {
-    padding: 5px;
-    text-transform: uppercase;
-    color: #03013F;
-    margin-top: 50px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #03013f;
+  margin-top: 50px;
 }
 
 h2::after {
-    content: '';
-    margin: 0 auto;
-    height: 30px;
-    width: 100px;
-    display: block;
+  content: "";
+  margin: 0 auto;
+  height: 30px;
+  width: 100px;
+  display: block;
 }
 
 h3 {
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
 }
 
 span {
-    color: #07C5D3;
+  color: #07c5d3;
 }
 
 p {
-    font-size: 1.2em;
-    color: #fff;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+  font-size: 1.2em;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
-
 
 /*Header*/
 
 .header {
-    display: flex;
-    flex-flow: column nowrap;
-    background: url("../img/fondos header/Samsung_Cell_phone_communication-Brand_HD_Wallpaper_2560x1600.jpg");
-    background-attachment: contain;
-    background-position: center;
-    background-size: cover;
-    height: 86vh;
+  display: flex;
+  flex-flow: column nowrap;
+  background: url("../img/fondos header/Samsung_Cell_phone_communication-Brand_HD_Wallpaper_2560x1600.jpg");
+  background-attachment: contain;
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
 }
 
 /*header de novedades*/
 .header_novedades {
-    display: flex;
-    flex-flow: column nowrap;
-    background: url("../img/fondos header/pc-section-07bg.jpg");
-    background-attachment: contain;
-    background-position: center;
-    background-size: cover;
-    height: 86vh;
+  display: flex;
+  flex-flow: column nowrap;
+  background: url("../img/fondos header/pc-section-07bg.jpg");
+  background-attachment: contain;
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
 }
 
 /*header de quienes somos*/
 .header_quienessomos {
-    display: flex;
-    flex-flow: column nowrap;
-    background: url("../img/fondos header/bim-el-iphone-13 pro max.jpg");
-    background-attachment: contain;
-    background-position: center;
-    background-size: cover;
-    height: 86vh;
+  display: flex;
+  flex-flow: column nowrap;
+  background: url("../img/fondos header/bim-el-iphone-13 pro max.jpg");
+  background-attachment: contain;
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
 }
 
 /*header de galeria*/
 .header_galeria {
-    display: flex;
-    flex-flow: column nowrap;
-    background: url("../img/fondos header/samsung-galaxy-s22-ultra-5g.png");
-    background-attachment: contain;
-    background-position: center;
-    background-size: cover;
-    height: 86vh;
+  display: flex;
+  flex-flow: column nowrap;
+  background: url("../img/fondos header/samsung-galaxy-s22-ultra-5g.png");
+  background-attachment: contain;
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
 }
 
 /*header de contacto*/
 .header_contacto {
-    display: flex;
-    flex-flow: column nowrap;
-    background: url("../img/fondos header/galaxy-s20_highlights_kv_00.jpg");
-    background-attachment: contain;
-    background-position: center;
-    background-size: cover;
-    height: 86vh;
+  display: flex;
+  flex-flow: column nowrap;
+  background: url("../img/fondos header/galaxy-s20_highlights_kv_00.jpg");
+  background-attachment: contain;
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
 }
 
 /*header de samsung*/
 .header_samsung {
-    display: flex;
-    flex-flow: column nowrap;
-    background: url("../../img/fondos header/samsung-s22-ultra-serie.png");
-    background-attachment: contain;
-    background-position: center;
-    background-size: cover;
-    height: 86vh;
+  display: flex;
+  flex-flow: column nowrap;
+  background: url("../../img/fondos header/samsung-s22-ultra-serie.png");
+  background-attachment: contain;
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
 }
 
 /*header de samsung*/
 .header_xiaomi {
-    display: flex;
-    flex-flow: column nowrap;
-    background: url("../../img/fondos header/xiaomi-mi-12-ultra.jpg");
-    background-attachment: contain;
-    background-position: center;
-    background-size: cover;
-    height: 86vh;
+  display: flex;
+  flex-flow: column nowrap;
+  background: url("../../img/fondos header/xiaomi-mi-12-ultra.jpg");
+  background-attachment: contain;
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
 }
 
 /*header de iphone*/
 .header_iphone {
-    display: flex;
-    flex-flow: column nowrap;
-    background: url("../../img/fondos header/Apple-iPhone-13-Pro-Max-hero-image-on-wood.jpg");
-    background-attachment: contain;
-    background-position: center;
-    background-size: cover;
-    height: 86vh;
+  display: flex;
+  flex-flow: column nowrap;
+  background: url("../../img/fondos header/Apple-iPhone-13-Pro-Max-hero-image-on-wood.jpg");
+  background-attachment: contain;
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
 }
 
 /*header de samsung*/
 .header_accesorios {
-    display: flex;
-    flex-flow: column nowrap;
-    background: url("../../img/fondos header/4.jpg");
-    background-attachment: contain;
-    background-position: center;
-    background-size: cover;
-    height: 86vh;
+  display: flex;
+  flex-flow: column nowrap;
+  background: url("../../img/fondos header/4.jpg");
+  background-attachment: contain;
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
 }
 
 nav.redes-sociales {
-    margin-top: 5%;
-    text-align: center;
+  margin-top: 5%;
+  text-align: center;
 }
 
 nav.redes-sociales a {
-    color: #ffffff !important;
-    font-size: 2.5em;
-    margin-right: 30px;
-
+  color: #ffffff !important;
+  font-size: 2.5em;
+  margin-right: 30px;
 }
 
-
 nav.redes-sociales a:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 /*----------------------Barra de navegacion-------------------*/
 
-button{
-    color: white;
-    border: 10px solid #ffffff;
-    background: #03013F;
-    width: 200px;
-    height: 65px;
-    border-radius: 30px;
-    font-weight: 600;
+button {
+  color: white;
+  border: 10px solid #ffffff;
+  background: #03013f;
+  width: 200px;
+  height: 65px;
+  border-radius: 30px;
+  font-weight: 600;
 }
 
-.galeria{
-    display: flex;
-    justify-content: space-around;
+.galeria {
+  display: flex;
+  justify-content: space-around;
 }
 
-.galeria .ga{
-    display: flex;
-    margin: 4em 4em;
-    flex-direction: column;
+.galeria .ga {
+  display: flex;
+  margin: 4em 4em;
+  flex-direction: column;
 }
 
-.ga img{
-    width: 500px;
-    height: 500px;
-    border-radius: 30px;
+.ga img {
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
 }
 
-.som img{
-    width: 600px;
-    border-radius: 50px;
+.som img {
+  width: 600px;
+  border-radius: 50px;
 }
 
 /*novedades de las galeria de la pagina HTML*/
-.novedades{
-    display: flex;
-    justify-content: space-around;
+.novedades {
+  display: flex;
+  justify-content: space-around;
 }
 
-.novedades .nov{
-    display: flex;
-    margin: 4em 4em;
-    flex-direction: column;
+.novedades .nov {
+  display: flex;
+  margin: 4em 4em;
+  flex-direction: column;
 }
 
-.nov h2{
-    text-align: center;
+.nov h2 {
+  text-align: center;
 }
 
-.nov img{
-    width: 350px;
-    height: 350px;
-    border-radius: 30px;
+.nov img {
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
 }
 
 /*VENTANA HTML PARA TODAS LAS PAGINAS*/
 
-.galery_cellphones{
-    display: flex;
-    justify-content: space-around;
+.galery_cellphones {
+  display: flex;
+  justify-content: space-around;
 }
 
-.galery_cellphones .cell{
-    display: flex;
-    flex-direction:column;
-    margin: 4em 4em;
+.galery_cellphones .cell {
+  display: flex;
+  flex-direction: column;
+  margin: 4em 4em;
 }
 
-.cell img{
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-    margin: 20px 0px;
+.cell img {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  margin: 20px 0px;
 }
 
-.cell h4{
-    text-align: center;
-    color: #07C5D3;
-    font-weight: bolder;
-    text-transform: uppercase;
-    margin: 0px 10px;
+.cell h4 {
+  text-align: center;
+  color: #07c5d3;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 0px 10px;
 }
 
 /*-----------------------------------------------*/
 
 .fixed {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
-.tituloPrincipal a{
-    font-family: 'Reboto', sans-serif;
-    color: #fff;
-    text-decoration: none;
+.tituloPrincipal a {
+  font-family: "Reboto", sans-serif;
+  color: #fff;
+  text-decoration: none;
 }
 
 .tituloPrincipal {
-    width: 43%;
-    font-size: 14px;
-    color: #fff;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
+  width: 43%;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 .menu {
-    display: flex;
-    background-color: #03013F;
+  display: flex;
+  background-color: #03013f;
 }
 
 .logo {
-    flex: 1 1 auto;
-    padding: 0px 0px 0px 50px;
-    width: 7%;
-    border-right: solid 30px #06C3CC;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  flex: 1 1 auto;
+  padding: 0px 0px 0px 50px;
+  width: 7%;
+  border-right: solid 30px #06c3cc;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .logo img {
-    width: 90%;
-    padding-left: 0;
-    background-color: #03013F;
-    border-radius: 12px;
+  width: 90%;
+  padding-left: 0;
+  background-color: #03013f;
+  border-radius: 12px;
 }
 
-
 .nav {
-    flex: 3 1 auto;
-    display: flex;
-    text-align: right;
-    font-family: 'Oswald', sans-serif;
-    width: 50%;
+  flex: 3 1 auto;
+  display: flex;
+  text-align: right;
+  font-family: "Oswald", sans-serif;
+  width: 50%;
 }
 
 .nav a {
+  color: #fff;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: block;
+  text-align: center;
+  margin-top: 14px;
+  padding-top: 14px;
+  width: 160px;
+  height: 40px;
+  margin-right: 20px;
+}
 
-    color: #fff;
-    font-size: 1.4em;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: all .3s ease;
-    display: block;
-    text-align: center;
-    margin-top: 14px;
-    padding-top: 14px;
-    width: 160px;
-    height: 40px;
-    margin-right: 20px;
+.nav button {
+  margin-top: 14px;
+  margin-bottom: 25px;
+  padding-top: 14px;
+  width: 70px;
+  height: 60px;
+  margin-right: 20px;
+  border-style: none;
+  transition: all 0.3s ease;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.nav i {
+  display: block;
+  font-size: 2.3em;
+  color: #fff;
+  margin-bottom: 30px;
 }
 
 .nav a:hover {
-    background-color: #06C3CC;
+  background-color: #06c3cc;
 }
 
 .nav .seleccionado {
-    border: 2px solid #06C3CC;
+  border: 2px solid #06c3cc;
 }
 
 /*Footer*/
 
 .footer {
-    background-color: #03013F;
-    margin-top: 50px;
-    width: 100%;
+  background-color: #03013f;
+  margin-top: 50px;
+  width: 100%;
 }
 
 .footer i {
-    color: white;
+  color: white;
 }
 
 .footer .contenedor {
-    display: flex;
-    flex-flow: row nowrap;
-    margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0 auto;
 }
 
-
-
 .footer h3 {
-    margin-top: 10px;
-    margin-bottom: 40px;
-
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 .footer p {
-    width: 90%;
-    text-align: justify;
-    margin: 0 auto;
-    color: white;
-    font-family: 'Oswald', sans-serif;
+  width: 90%;
+  text-align: justify;
+  margin: 0 auto;
+  color: white;
+  font-family: "Oswald", sans-serif;
 }
 
 .footer li {
-    color: white;
-    margin-bottom: 30px;
-    text-align: left;
+  color: white;
+  margin-bottom: 30px;
+  text-align: left;
 }
 
 .footer a {
-    font-size: 1.2em;
-    margin-right: 5px;
+  font-size: 1.2em;
+  margin-right: 5px;
 }
 
 .footer ul {
-    margin-left: 15%;
+  margin-left: 15%;
 }
 
 .footer .footer-informacion,
 .footer .contactenos,
 .footer .redes {
-    flex: 1 1 20%;
-    padding: 20px;
+  flex: 1 1 20%;
+  padding: 20px;
 }
-
-
 
 /*	main 	*/
 h2 {
-    font-family: 'Oswald', sans-serif;
-    font: 400;
+  font-family: "Oswald", sans-serif;
+  font: 400;
 }
 
 h3 {
-    font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 section .main {
-    display: flex;
-    flex-flow: row nowrap;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .nuestro-servicios {
-    flex: 1 1 auto;
-    text-align: center;
+  flex: 1 1 auto;
+  text-align: center;
 }
 
-
 .nuestro-servicios p {
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: #03013F;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #03013f;
 }
 
 .contenedor {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .descripcion-hacemos {
-    flex: 1 1 auto;
-    flex-flow: row nowrap;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 50px;
+  flex: 1 1 auto;
+  flex-flow: row nowrap;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
-
 .contenidoPrincipal {
-    display: flex;
-    height: 400px;
+  display: flex;
+  height: 400px;
 }
 
 .contenidoPrincipal h3,
 .contenidoPrincipal p {
-    color: #03013F;
+  color: #03013f;
 }
 
 .contenido {
-    flex: 1 1 auto;
-    padding: 10px;
+  flex: 1 1 auto;
+  padding: 10px;
 }
 
 .fondo {
-    font-size: 8em;
+  font-size: 8em;
 }
 
 .fondo div {
-    font-size: 0.6em;
-    color: #07C5D3;
+  font-size: 0.6em;
+  color: #07c5d3;
 }
 
 .contenedor-oscuro {
-    background-color: #03013F;
-    height: 300px;
-    padding: 40px;
+  background-color: #03013f;
+  height: 300px;
+  padding: 40px;
 }
 
 .contenedor-oscuro h3 {
-    padding: 20px;
-    text-align: left;
-    font-size: 1.5em;
+  padding: 20px;
+  text-align: left;
+  font-size: 1.5em;
 }
 
 /*Mapa*/
 
 .map {
-    text-align: center;
+  text-align: center;
 }
 
-
 div.mapa {
-    display: flex;
-    flex-flow: row nowrap;
-    height: 420px;
-    background-color: #f2f2f2;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 420px;
+  background-color: #f2f2f2;
 }
 
 .map .pieMapa {
-    width: 18%;
-    text-align: center;
-    margin: 0 auto;
+  width: 18%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .map .pieMapa h3 {
-    margin-top: 50px;
-    color: #03013F;
+  margin-top: 50px;
+  color: #03013f;
 }
 
 .map .pieMapa hr {
-    background-color: #07C5D3;
-    height: 3px;
+  background-color: #07c5d3;
+  height: 3px;
 }
 
 /**--------------------------------------*/
 .conLogo {
-    display: flex;
+  display: flex;
 }
 
 .Logo2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
 }
 
 .titufo {
-    font-family: 'Reboto', sans-serif;
-    font-size: 25px;
-    color: #07C5D3;
-    padding-top: 18px;
+  font-family: "Reboto", sans-serif;
+  font-size: 25px;
+  color: #07c5d3;
+  padding-top: 18px;
 }
 
 .pelado p {
-    text-align: center;
-    font-size: 1.2em;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 .blan {
-    color: #fff;
+  color: #fff;
+}
+
+/*agregando los estilos de nuestro inicio de sesion*/
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  border-radius: 1em;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #06c3cc;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
