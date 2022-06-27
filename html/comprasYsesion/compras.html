@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../../css/contactenos.css">
 </head>
 
 <body>
@@ -67,7 +68,8 @@
         <!-- Modal Content -->
         <form class="modal-content animate" action="/action_page.php">
             <div class="imgcontainer">
-                <img src="../../img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg" alt="Avatar" class="avatar" />
+                <img src="../../img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg" alt="Avatar"
+                    class="avatar" />
             </div>
 
             <div class="container">
@@ -88,6 +90,58 @@
             </div>
         </form>
     </div>
+
+    <!--------------------------------MENU--------------------------------------------->
+    <main class="scrollflow -slide-right -opacity">
+        <div class="subtitulo">
+            <h2>Factura</h2>
+        </div>
+        <form>
+            <div class="datos">
+                <div class="icono_text">
+                    <input type="text" class="campo" placeholder="No de factura" required>
+                </div>
+                <div class="icono_text">
+                    <input type="text" class="campo" placeholder="Nombre Completo" required>
+                </div>
+                <div class="icono_text">
+                    <input type="text" class="campo" placeholder="Dirrección" required>
+                </div>
+            </div>
+
+            <div class="datos">
+                <div class="icono_text">
+                    <input type="text" class="campo" placeholder="Teléfono" required>
+                </div>
+                <div class="selC">
+                    <select class="opc-fac">
+                        <option selected>Seleccione tipo de envio</option>
+                        <option>Delivery</option>
+                        <option>CargoTrans</option>
+                    </select>
+                </div>
+                <div class="selC">
+                    <select class="opc-fac">
+                        <option selected>Seleccione tipo de pago</option>
+                        <option>Contado</option>
+                        <option>Crédito</option>
+                        <option>Tarjeta</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="datos">
+                <div class="icon_text">
+                    <textarea id="descr" placeholder="Especificar la marca y el modelo de los celulares a comprar" style="width: 671px; height: 139px;" required></textarea>
+                </div>
+            </div>
+            
+            <div class="datos">
+                <button class="btn_enviar"><a href="../index.html">Enviar</a></button>
+            </div>
+        </form>
+    </main>
+    <!---------------------------------------FIN DEL MENU--------------------------------------->
 
     <!--Footer-->
     <footer class="footer scrollflow -slide-top">
