@@ -22,12 +22,11 @@
     />
     <link rel="stylesheet" href="../../css/contactenos.css" />
   </head>
-
   <body>
     <div class="padre">
       <!--Header-->
 
-      <header class="header_xiaomi" id="headerDinamic">
+      <header class="header_iphone" id="headerDinamic">
         <div class="contenido-header">
           <nav class="redes-sociales">
             <a href="https://www.instagram.com/Cellzonenic/" target="_blank"
@@ -74,17 +73,43 @@
       <!--fin Barra Navegacion-->
     </div>
 
-    <main class="">
+    <main class="scrollflow -slide-right -opacity">
       <div class="subtitulo">
-        <h2><a style="text-decoration:none; color: #03013f;" href="../comprasYsesion/homeAdmin.html">Opciones del Administrador</a></h2>
+        <h2>Cambiar los fondos de nuestras ventanas</h2>
       </div>
-      <section class="barra menu">
-        <nav class="OpcAdm">
-          <a href="../../html/comprasYsesion/CrearUsuario.html">Crear Usuario</a>
-          <a href="../../Html/comprasYsesion/fondos.html">Modificar Fondos</a>
-          <a href="../../Html/comprasYsesion/addCell.html">Agregar un producto</a>
-        </nav>
-      </section>
+      <form action="../../html/comprasYsesion/homeAdmin.html">
+        <div class="datos">
+          <div class="selC">
+            <select class="opc-fac">
+              <option selected>Seleccione la ventana</option>
+              <option>inicio</option>
+              <option>Novedades</option>
+              <option>Quienes Somos</option>
+              <option>Galeria</option>
+              <option>Contacto</option>
+              <option>Accesorios</option>
+              <option>AlbumMes</option>
+              <option>Iphone</option>
+              <option>Samsung</option>
+              <option>Xiaomi</option>
+            </select>
+          </div>
+          <div class="icono_text">
+            <input type="text" class="campo" placeholder="Titulo" required />
+          </div>
+        </div>
+        <div class="datos">
+          <div class="file">
+            <div class="opc">
+              <input class="inputFile" type="file" name="archivosubido" />
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="datos">
+          <button class="btn_enviar"><a href="">Realizar Cambio</a></button>
+        </div>
+      </form>
     </main>
 
     <!--Footer-->
