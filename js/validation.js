@@ -8,7 +8,7 @@ var u = "Admin";
 btn.addEventListener("click", function (evt) {
   if (document.form.clave.value == c && document.form.usuario.value == u) {
     alert("Bienvenidos " + u + " en su inicio de sesion correctamente");
-    window.location = "/html/comprasYsesion/addCell.html";
+    window.location = "/html/comprasYsesion/homeAdmin.html";
     evt.preventDefault();
     return false;
   } else {
