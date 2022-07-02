@@ -1,170 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cellzone</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cellzone</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
+  <body>
+    <div class="padre">
+      <!--Header-->
 
-<body>
-  <div class="padre">
-    <!--Header-->
+      <header class="header" id="headerDinamic">
+        <div class="contenido-header">
+          <nav class="redes-sociales">
+            <a href="https://www.instagram.com/Cellzonenic/" target="_blank"
+              ><i class="instH fab fa-instagram"></i
+            ></a>
+            <a href="#"><i class="twitH fab fa-twitter" target="_blank"></i></a>
+            <a href="https://www.facebook.com/CellZoneNic" target="_blank"
+              ><i class="faceH fab fa-facebook-f"></i
+            ></a>
+          </nav>
+          <nav class="informacion-evento"></nav>
+        </div>
+      </header>
+      <!--Fin Header-->
 
-    <header class="header" id="headerDinamic">
-      <div class="contenido-header">
-        <nav class="redes-sociales">
-          <a href="https://www.instagram.com/Cellzonenic/" target="_blank"><i class="instH fab fa-instagram"></i></a>
-          <a href="#"><i class="twitH fab fa-twitter" target="_blank"></i></a>
-          <a href="https://www.facebook.com/CellZoneNic" target="_blank"><i class="faceH fab fa-facebook-f"></i></a>
+      <!--Barra Navegacion-->
+      <section class="barra menu">
+        <div class="logo">
+          <img
+            src="img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg"
+            alt="Logo"
+          />
+        </div>
+        <div class="tituloPrincipal">
+          <a href="index.html">
+            <h1>TIENDA CELLZONE</h1>
+          </a>
+        </div>
+        <nav class="nav">
+          <a href="../html/novedades.html">Novedades</a>
+          <a href="../Html/quienesSomos.html">Quienes Somos</a>
+          <a href="../Html/galeria.html">Galeria</a>
+          <a href="../Html/contacto.html">Contacto</a>
+          <button
+            onclick="window.location.href='../Html/comprasYsesion/compras.html';"
+          >
+            <i class="fa fa-cash-register"></i>
+          </button>
+          <button
+            onclick="document.getElementById('id01').style.display='block'"
+          >
+            <i class="fa fa-user"></i>
+          </button>
         </nav>
-        <nav class="informacion-evento"></nav>
-      </div>
-    </header>
-    <!--Fin Header-->
+      </section>
 
-    <!--Barra Navegacion-->
-    <section class="barra menu">
-      <div class="logo">
-        <img src="img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg" alt="Logo" />
+      <!--fin Barra Navegacion-->
+    </div>
+
+    <!--inicio de sesion-->
+    <div id="id01" class="modal">
+      <span
+        onclick="document.getElementById('id01').style.display='none'"
+        class="close"
+        title="Close Modal"
+        >&times;</span
+      >
+
+      <!-- Modal Content -->
+      <form
+        class="modal-content animate"
+        action="INICIO DE SESION"
+        name="form"
+      >
+        <div class="imgcontainer">
+          <img
+            src="img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg"
+            alt="Avatar"
+            class="avatar"
+          />
+        </div>
+
+        <div class="container">
+          <input
+            id="usuario"
+            type="text"
+            class="inputSesion"
+            placeholder="Usuario"
+            name="usuario"
+            required
+          />
+          <input
+            id="clave"
+            type="password"
+            class="inputSesion"
+            placeholder="Contraseña"
+            name="clave"
+            required
+          />
+
+          <button id="sesion" type="button" value="INICIO DE SESION">
+            Iniciar Sesion
+          </button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" /> recordar
+          </label>
+        </div>
+
+        <div class="container" style="background-color: #f1f1f1">
+          <button
+            type="button"
+            onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn"
+          >
+            Cancelar
+          </button>
+          <span class="psw">olvido <a href="#">contraseña?</a></span>
+        </div>
+      </form>
+    </div>
+
+    <!--inicio del menu-->
+    <section class="main">
+      <div class="nuestro-servicios scrollflow -slide-right -opacity">
+        <h2>TIENDA <span>CELLZONE</span></h2>
+        <p>
+          Tienda de Celulares en Altamira, Managua, Abrimos desde las 9:30 a.m.
+          a las 4:00 p.m.
+        </p>
       </div>
-      <div class="tituloPrincipal">
-        <a href="index.html">
-          <h1>TIENDA CELLZONE</h1>
-        </a>
+
+      <div class="descripcion-hacemos scrollflow -slide-top">
+        <button>Llamar a 5884-2767</button>
       </div>
-      <nav class="nav">
-        <a href="../html/novedades.html">Novedades</a>
-        <a href="../Html/quienesSomos.html">Quienes Somos</a>
-        <a href="../Html/galeria.html">Galeria</a>
-        <a href="../Html/contacto.html">Contacto</a>
-        <button onclick="window.location.href='../Html/comprasYsesion/compras.html';">
-          <i class="fa fa-cash-register"></i>
-        </button>
-        <button onclick="document.getElementById('id01').style.display='block'">
-          <i class="fa fa-user"></i>
-        </button>
-      </nav>
+
+      <div class="galeria scrollflow -slide-top">
+        <div class="ga">
+          <img src="img/samsung/samsung A32.jpeg" alt="" />
+        </div>
+        <div class="ga">
+          <img src="img/samsung/samsung s22 plus.jpeg" alt="" />
+        </div>
+      </div>
+
+      <div class="map scrollflow -slide-top">
+        <h2>Visitenos</h2>
+        <div id="mapa" class="mapa"></div>
+        <!--div mapa-->
+        <div class="pieMapa">
+          <h3>Managua,Nicaragua</h3>
+          <hr />
+        </div>
+      </div>
     </section>
+    <!--fin del menu-->
 
-    <!--fin Barra Navegacion-->
-  </div>
+    <!--Footer-->
+    <footer class="footer scrollflow -slide-top">
+      <div class="contenedor">
+        <div class="footer-informacion">
+          <div class="conLogo">
+            <img
+              src="img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg"
+              alt="Logo"
+              class="Logo2"
+            />
+          </div>
+        </div>
 
-  <!--inicio de sesion-->
-  <div id="id01" class="modal">
-    <span onclick="document.getElementById('id01').style.display='none'" class="close"
-      title="Close Modal">&times;</span>
+        <div class="contactenos">
+          <h3>Sobre nosotros</h3>
+          <h3>
+            Somos una tienda dedicada la venta de celulares, confiable,
+            eficiente y ética, con la visión de satisfacer las necesidades de
+            nuestros clientes.
+          </h3>
+        </div>
 
-    <!-- Modal Content -->
-    <form class="modal-content animate" action="/html/comprasYsesion/addCell.html">
-      <div class="imgcontainer">
-        <img src="img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg" alt="Avatar" class="avatar" />
-      </div>
+        <div class="redes">
+          <h3>Contac<span>tenos</span></h3>
+          <div class="contenido">
+            <ul>
+              <li>
+                <a><i class="fas fa-envelope"></i></a
+                >cellzonenicaragua@gmail.com
+              </li>
 
-      <div class="container">
-        <input type="text" class="inputSesion" placeholder="Usuario" name="uname" required />
-        <input type="password" class="inputSesion" placeholder="Contraseña" name="psw" required />
-
-        <button type="submit">Iniciar Sesion</button>
-        <label>
-          <input type="checkbox" checked="checked" name="remember" /> recordar
-        </label>
-      </div>
-
-      <div class="container" style="background-color: #f1f1f1">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">
-          Cancelar
-        </button>
-        <span class="psw">olvido <a href="#">contraseña?</a></span>
-      </div>
-    </form>
-  </div>
-
-  <!--inicio del menu-->
-  <section class="main">
-    <div class="nuestro-servicios scrollflow -slide-right -opacity">
-      <h2>TIENDA <span>CELLZONE</span></h2>
-      <p>
-        Tienda de Celulares en Altamira, Managua, Abrimos desde las 9:30 a.m.
-        a las 4:00 p.m.
-      </p>
-    </div>
-
-    <div class="descripcion-hacemos scrollflow -slide-top">
-      <button>Llamar a 5884-2767</button>
-    </div>
-
-    <div class="galeria scrollflow -slide-top">
-      <div class="ga">
-        <img src="img/samsung/samsung A32.jpeg" alt="" />
-      </div>
-      <div class="ga">
-        <img src="img/samsung/samsung s22 plus.jpeg" alt="" />
-      </div>
-    </div>
-
-    <div class="map scrollflow -slide-top">
-      <h2>Visitenos</h2>
-      <div id="mapa" class="mapa"></div>
-      <!--div mapa-->
-      <div class="pieMapa">
-        <h3>Managua,Nicaragua</h3>
-        <hr />
-      </div>
-    </div>
-  </section>
-  <!--fin del menu-->
-
-  <!--Footer-->
-  <footer class="footer scrollflow -slide-top">
-    <div class="contenedor">
-      <div class="footer-informacion">
-        <div class="conLogo">
-          <img src="img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg" alt="Logo" class="Logo2" />
+              <li>
+                <a><i class="fas fa-phone-alt"></i></a> +(505)-5884-2767
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-
-      <div class="contactenos">
-        <h3>Sobre nosotros</h3>
-        <h3>
-          Somos una tienda dedicada la venta de celulares, confiable,
-          eficiente y ética, con la visión de satisfacer las necesidades de
-          nuestros clientes.
-        </h3>
-      </div>
-
-      <div class="redes">
-        <h3>Contac<span>tenos</span></h3>
-        <div class="contenido">
-          <ul>
-            <li>
-              <a><i class="fas fa-envelope"></i></a>cellzonenicaragua@gmail.com
-            </li>
-
-            <li>
-              <a><i class="fas fa-phone-alt"></i></a> +(505)-5884-2767
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!--Fin Footer-->
-
-  <script src="js/jquery-1.12.0.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="https://kit.fontawesome.com/2e23c96103.js" crossorigin="anonymous"></script>
-  <script src="js/jquery.animate-colors-min.js"></script>
-  <script src="js/jquery.blockUI.js"></script>
-  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-  <script src="js/eskju.jquery.scrollflow.min.js"></script>
-</body>
-
+    </footer>
+    <!--Fin Footer-->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <!--script de validation-->
+    <script src="js/validation.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2e23c96103.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.animate-colors-min.js"></script>
+    <script src="js/jquery.blockUI.js"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="js/eskju.jquery.scrollflow.min.js"></script>
+  </body>
 </html>
