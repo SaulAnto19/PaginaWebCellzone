@@ -65,7 +65,11 @@
         >
   
         <!-- Modal Content -->
-        <form class="modal-content animate" action="../html/comprasYsesion/addCell.html">
+        <form
+          class="modal-content animate"
+          action="INICIO DE SESION"
+          name="form"
+        >
           <div class="imgcontainer">
             <img
               src="../img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg"
@@ -75,10 +79,26 @@
           </div>
   
           <div class="container">
-            <input type="text" class="inputSesion" placeholder="Usuario" name="uname" required />
-            <input type="password" class="inputSesion" placeholder="Contraseña" name="psw" required />
+            <input
+              id="usuario"
+              type="text"
+              class="inputSesion"
+              placeholder="Usuario"
+              name="usuario"
+              required
+            />
+            <input
+              id="clave"
+              type="password"
+              class="inputSesion"
+              placeholder="Contraseña"
+              name="clave"
+              required
+            />
   
-            <button type="submit">Iniciar Sesion</button>
+            <button id="sesion" type="button" value="INICIO DE SESION">
+              Iniciar Sesion
+            </button>
             <label>
               <input type="checkbox" checked="checked" name="remember" /> recordar
             </label>
@@ -156,6 +176,7 @@
     <!--javascript-->
     <script src="../js/jquery-1.12.0.min.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/validation.js"></script>
     <script src="https://kit.fontawesome.com/2e23c96103.js" crossorigin="anonymous"></script>
     <script src="../js/jquery.animate-colors-min.js"></script>
     <script src="../js/jquery.blockUI.js"></script>
