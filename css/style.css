@@ -320,6 +320,28 @@ button {
   margin-right: 20px;
 }
 
+.OpcAdm {
+  flex: 3 1 auto;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Oswald", sans-serif;
+  width: 60%;
+}
+
+.OpcAdm a {
+  color: #fff;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: block;
+  text-align: center;
+  padding-top: 14px;
+  width: 290px;
+  height: 40px;
+  margin-right: 20px;
+}
+
 .nav button {
   margin-top: 14px;
   margin-bottom: 25px;
@@ -341,6 +363,10 @@ button {
 }
 
 .nav a:hover {
+  background-color: #06c3cc;
+}
+
+.OpcAdm a:hover {
   background-color: #06c3cc;
 }
 
