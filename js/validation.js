@@ -13,12 +13,12 @@ var uE = "Allison";
 btn.addEventListener("click", function (evt) {
   if (document.form.clave.value == c && document.form.usuario.value == u) {
     alert("Bienvenidos " + u + " en su inicio de sesion correctamente");
-    window.location = "/html/comprasYsesion/homeAdmin.html";
+    window.location = "html/comprasYsesion/homeAdmin.html";
     evt.preventDefault();
     return false;
   } else if (document.form.clave.value == cE && document.form.usuario.value == uE) {
     alert("Bienvenidos " + uE + " en su inicio de sesion correctamente");
-    window.location = "/html/comprasYsesion/homeEmpleado.html";
+    window.location = "html/comprasYsesion/homeEmpleado.html";
     evt.preventDefault();
     return false;
   } else {
