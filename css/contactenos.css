@@ -30,6 +30,18 @@ main {
   font-size: 30px;
 }
 
+.subtitulo a{
+  text-decoration:none; 
+  color: #03013f;
+}
+
+.subtitulo a:hover{
+  background-color: #03013f;
+  transition: ease 0.5s all;
+  border-radius: 5px;
+  color: #06c3cc;
+}
+
 .puntos {
   text-align: center;
 }
