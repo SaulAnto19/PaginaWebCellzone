@@ -51,7 +51,7 @@
                 <button onclick="window.location.href='../../Html/comprasYsesion/compras.html';">
                     <i class="fa fa-cash-register"></i>
                 </button>
-                <button onclick="document.getElementById('id01').style.display='block'">
+                <button>
                     <i class="fa fa-user"></i>
                 </button>
             </nav>
@@ -60,56 +60,28 @@
         <!--fin Barra Navegacion-->
     </div>
 
-    <!--inicio de sesion-->
-    <div id="id01" class="modal">
-        <span onclick="document.getElementById('id01').style.display='none'" class="close"
-            title="Close Modal">&times;</span>
-
-        <!-- Modal Content -->
-        <form class="modal-content animate" action="../../index.html">
-            <div class="imgcontainer">
-                <img src="../../img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg" alt="Avatar"
-                    class="avatar" />
-            </div>
-
-            <div class="container">
-                <input type="text" class="inputSesion" placeholder="Usuario" name="uname" required />
-                <input type="password" class="inputSesion" placeholder="Contraseña" name="psw" required />
-
-                <button type="submit">Iniciar Sesion</button>
-                <label>
-                    <input type="checkbox" checked="checked" name="remember" /> recordar
-                </label>
-            </div>
-
-            <div class="container" style="background-color: #f1f1f1">
-                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">
-                    Cancelar
-                </button>
-                <span class="psw">olvido <a href="#">contraseña?</a></span>
-            </div>
-        </form>
-    </div>
-
     <!--------------------------------MENU--------------------------------------------->
     <main>
         <div class="subtitulo scrollflow -slide-right -opacity">
-            <h2>Compra de un producto de su interes</h2>
+            <h2>Factura</h2>
         </div>
         <form action="../../index.html" class="scrollflow -slide-top -opacity">
             <div class="datos">
                 <div class="icono_text">
+                    <input type="text" class="campo" placeholder="No de factura" required>
+                </div>
+                <div class="icono_text">
                     <input type="text" class="campo" placeholder="Nombre Completo" required>
                 </div>
                 <div class="icono_text">
-                    <input type="text" class="campo" placeholder="Teléfono" required>
-                </div>
-                <div class="icono_text">
-                    <input type="email" class="campo" placeholder="Correo Electronico" required>
+                    <input type="text" class="campo" placeholder="Dirrección" required>
                 </div>
             </div>
 
             <div class="datos">
+                <div class="icono_text">
+                    <input type="text" class="campo" placeholder="Teléfono" required>
+                </div>
                 <div class="selC">
                     <select class="opc-fac">
                         <option selected>Seleccione tipo de envio</option>
@@ -132,13 +104,14 @@
                     <textarea id="descr" placeholder="Especificar la marca y el modelo de los celulares a comprar" style="width: 671px; height: 139px;" required></textarea>
                 </div>
             </div>
+            
             <div class="datos">
-                <button class="btn_enviar">Enviar Compra</button>
+                <button class="btn_enviar">Enviar</button>
                 <button
-            onclick="window.location.href='../../index.html';"
+            onclick="window.location.href='../comprasYsesion/homeEmpleado.html';"
             class="cancelbtn"
           >
-            Cancelar Compra
+            Cancelar
           </button>
             </div>
         </form>

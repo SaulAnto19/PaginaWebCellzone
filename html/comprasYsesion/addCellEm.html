@@ -51,7 +51,7 @@
                 <button onclick="window.location.href='../../Html/comprasYsesion/compras.html';">
                     <i class="fa fa-cash-register"></i>
                 </button>
-                <button onclick="document.getElementById('id01').style.display='block'">
+                <button>
                     <i class="fa fa-user"></i>
                 </button>
             </nav>
@@ -66,7 +66,7 @@
             title="Close Modal">&times;</span>
 
         <!-- Modal Content -->
-        <form class="modal-content animate" action="../../index.html">
+        <form class="modal-content animate" action="#">
             <div class="imgcontainer">
                 <img src="../../img/fondos header/WhatsApp Image 2022-05-08 at 6.04.05 PM.jpeg" alt="Avatar"
                     class="avatar" />
@@ -92,53 +92,44 @@
     </div>
 
     <!--------------------------------MENU--------------------------------------------->
-    <main>
-        <div class="subtitulo scrollflow -slide-right -opacity">
-            <h2>Compra de un producto de su interes</h2>
+    <main class="scrollflow -slide-right -opacity">
+        <div class="subtitulo">
+            <h2>Agregar un nuevo producto</h2>
         </div>
-        <form action="../../index.html" class="scrollflow -slide-top -opacity">
-            <div class="datos">
-                <div class="icono_text">
-                    <input type="text" class="campo" placeholder="Nombre Completo" required>
-                </div>
-                <div class="icono_text">
-                    <input type="text" class="campo" placeholder="Teléfono" required>
-                </div>
-                <div class="icono_text">
-                    <input type="email" class="campo" placeholder="Correo Electronico" required>
-                </div>
-            </div>
-
+        <form action="../comprasYsesion/homeAdmin.html">
             <div class="datos">
                 <div class="selC">
                     <select class="opc-fac">
-                        <option selected>Seleccione tipo de envio</option>
-                        <option>Delivery</option>
-                        <option>CargoTrans</option>
+                        <option selected>Seleccione la categoria</option>
+                        <option>SAMSUNG</option>
+                        <option>XIAOMI</option>
+                        <option>IPHONE</option>
+                        <option>ACCESORIOS</option>
+                        <option>ALBUM DEL MES DE MAYO</option>
                     </select>
                 </div>
-                <div class="selC">
-                    <select class="opc-fac">
-                        <option selected>Seleccione tipo de pago</option>
-                        <option>Contado</option>
-                        <option>Crédito</option>
-                        <option>Tarjeta</option>
-                    </select>
+                <div class="file">
+                    <div class="opc">
+                        <input class="inputFile" type="file" name="archivosubido">
+                    </div>
                 </div>
             </div>
-
             <div class="datos">
+                <div class="icono_text">
+                    <input type="text" class="campo" placeholder="Marca y modelo" required>
+                </div>
                 <div class="icon_text">
-                    <textarea id="descr" placeholder="Especificar la marca y el modelo de los celulares a comprar" style="width: 671px; height: 139px;" required></textarea>
+                    <i class="fas fa-comment-dots"></i>
+                    <textarea id="descr" placeholder="Especificaciones de la marca y modelo del celular a agregar" required></textarea>
                 </div>
             </div>
             <div class="datos">
-                <button class="btn_enviar">Enviar Compra</button>
+                <button class="btn_enviar">SUBIR</button>
                 <button
-            onclick="window.location.href='../../index.html';"
+            onclick="window.location.href='../comprasYsesion/homeEmpleado.html';"
             class="cancelbtn"
           >
-            Cancelar Compra
+            Cancelar
           </button>
             </div>
         </form>
