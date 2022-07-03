@@ -39,7 +39,7 @@ main {
   background-color: #03013f;
   transition: ease 0.5s all;
   border-radius: 5px;
-  color: #06c3cc;
+  color: #ffffff;
 }
 
 .puntos {
@@ -161,7 +161,6 @@ textarea #descr {
 }
 
 .datos .btn_enviar {
-  padding: 10px 30px;
   border: 1px solid #06c3cc;
   background: #06c3cc;
   color: white;
@@ -170,7 +169,7 @@ textarea #descr {
 
 .btn_enviar {
   width: 150px;
-  height: 60px;
+  height: 50px;
   font-size: 20px;
 }
 

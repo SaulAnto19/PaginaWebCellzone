@@ -76,34 +76,63 @@
 
     <main class="scrollflow -slide-right -opacity">
       <div class="subtitulo">
-        <h2><a href="../comprasYsesion/homeAdmin.html">CREAR USUARIO</a></h2>
+        <h2>CREAR USUARIO</h2>
       </div>
       <form action="../comprasYsesion/homeAdmin.html">
         <div class="datos">
-            <div class="selC">
-                <select class="opc-fac">
-                    <option selected>Seleccione el rol del usuario</option>
-                    <option>Administrador</option>
-                    <option>Empleado</option>
-                </select>
-            </div>
-            <div class="icono_text">
-                <input type="text" class="campo" placeholder="Nombre Completo" required>
-            </div>
-            <div class="icono_text">
-                <input type="text" class="campo" placeholder="Nombre de usuario" required>
-            </div>
+          <div class="selC">
+            <select class="opc-fac">
+              <option selected>Seleccione el rol del usuario</option>
+              <option>Administrador</option>
+              <option>Empleado</option>
+            </select>
+          </div>
+          <div class="icono_text">
+            <input
+              type="text"
+              class="campo"
+              placeholder="Nombre Completo"
+              required
+            />
+          </div>
+          <div class="icono_text">
+            <input
+              type="text"
+              class="campo"
+              placeholder="Nombre de usuario"
+              required
+            />
+          </div>
         </div>
         <div class="datos">
-            <div class="icono_text">
-                <input type="password" class="campo" placeholder="Contraseña" required>
-            </div>
-            <div class="icono_text">
-                <input type="password" class="campo" placeholder="contraseña Nuevamente" required>
-            </div>
+          <div class="icono_text">
+            <input
+              type="password"
+              class="campo"
+              placeholder="Contraseña"
+              required
+            />
+          </div>
+          <div class="icono_text">
+            <input
+              type="password"
+              class="campo"
+              placeholder="contraseña Nuevamente"
+              required
+            />
+          </div>
         </div>
         <div class="datos">
-            <button class="btn_enviar">CREAR USUARIO</button>
+          <button class="btn_enviar">CREAR USUARIO</button>
+          <button
+            onclick="window.location.href='../comprasYsesion/homeAdmin.html';"
+            class="cancelbtn"
+          >
+            Cancelar
+          </button>
+        </div>
+        <div class="datos">
+          
         </div>
       </form>
     </main>
